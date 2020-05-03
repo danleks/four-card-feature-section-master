@@ -6,41 +6,43 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./style.css" type="text/css" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header__title">Reliable, efficient delivery</h1>
+      <h2 class="header__subtitle">Powered by Technology</h2>
+      <p class="header__text">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    </header>
+    <main>
+      <ul class="list">
+        <li class="list__item list__item--cyan">
+          <h3 class="list__title">Supervisor</h3>
+          <p class="list__desc">Monitors activity to identify project roadblocks</p>
+        </li>
+        <li class="list__item list__item--red">
+          <h3 class="list__title">Team Builder</h3>
+          <p class="list__desc">Scans our talent network to create the optimal team for your project</p>
+        </li>
+        <li class="list__item list__item--orange">
+          <h3 class="list__title">Karma</h3>
+          <p class="list__desc">Regularly evaluates our talent to ensure quality</p>
+        </li>
+        <li class="list__item list__item--blue">
+          <h3 class="list__title">Calculator</h3>
+          <p class="list__desc">Uses data from past projects to provide better delivery estimates</p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">danleks</a>.
+      </p>
+    </footer>
+</div>
 </body>
 </html>
